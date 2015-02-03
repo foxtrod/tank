@@ -2,7 +2,7 @@ __author__ = 'vlad'
 
 class Tank(object):
 
-    def _init_(self, name):
+    def __init__(self, name):
 
         self.name = name
         self.alive = True
